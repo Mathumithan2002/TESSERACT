@@ -1,5 +1,5 @@
 
-import { LinkedinLogo, TwitterLogo, GithubLogo } from '@phosphor-icons/react';
+import { Envelope, Phone } from '@phosphor-icons/react';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
               <img src="/assets/images/logo.png" alt="Tesseract Logo" />
               <span className="brand-name">
                 <span className="brand-main">Tesseract</span>
-                <span className="brand-sub">Matrix</span>
+                <span className="brand-sub">Labz</span>
               </span>
             </a>
             <p>Engineering the future with IoT, Embedded Systems, and AI.</p>
@@ -25,17 +25,22 @@ const Footer = () => {
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
-          <div className="footer-social">
-            <h4>Follow Us</h4>
-            <div className="social-icons">
-              <a href="#"><LinkedinLogo size={24} /></a>
-              <a href="#"><TwitterLogo size={24} /></a>
-              <a href="#"><GithubLogo size={24} /></a>
-            </div>
+          <div className="footer-contact">
+            <h4>Contact Us</h4>
+            <ul className="footer-contact-list">
+              <li>
+                <Envelope size={18} />
+                <a href="mailto:tesseractlabz@gmail.com">tesseractlabz@gmail.com</a>
+              </li>
+              <li>
+                <Phone size={18} />
+                <a href="tel:0762620233">0762620233</a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Tesseract Technologies. All rights reserved.</p>
+          <p>&copy; 2026 Tesseract Labz. All rights reserved.</p>
         </div>
       </div>
     </footer>

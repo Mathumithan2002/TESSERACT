@@ -24,8 +24,8 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h2 className="section-title">About Tesseract</h2>
-          <p>Tesseract is a cutting-edge technology firm dedicated to bridging the gap between physical hardware and digital intelligence. We specialize in end-to-end product development, ensuring your vision is scaled with precision and innovation.</p>
+          <h2 className="section-title">About Tesseract Labz</h2>
+          <p>Tesseract Labz is a cutting-edge technology firm dedicated to bridging the gap between physical hardware and digital intelligence. We specialize in end-to-end product development, ensuring your vision is scaled with precision and innovation.</p>
           <p>Our focus on reliability and future-proof architecture makes us the partner of choice for industry leaders looking to automate and innovate.</p>
           <ul className="check-list">
             <li><CheckCircle size={24} weight="fill" /> Innovation-driven approach</li>

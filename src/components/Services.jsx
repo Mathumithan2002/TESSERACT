@@ -35,7 +35,7 @@ const Services = () => {
         </div>
         <div className="grid grid-4">
           {services.map((service, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               className="service-card"
               initial={{ opacity: 0, y: 20 }}

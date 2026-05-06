@@ -13,7 +13,7 @@ const WhyUs = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="section-title">Why Choose Tesseract?</h2>
+          <h2 className="section-title">Why Choose Tesseract Labz?</h2>
           <div className="why-points">
             <div className="point">
               <div className="point-icon"><ChartLineUp size={40} /></div>
