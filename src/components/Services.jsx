@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Broadcast, Cpu, Code, Brain } from '@phosphor-icons/react';
 

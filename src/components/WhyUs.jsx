@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { ChartLineUp, UsersThree, ShieldCheck, RocketLaunch, Lock, Infinity as InfinityIcon } from '@phosphor-icons/react';
 

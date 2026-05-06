@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { LinkedinLogo, TwitterLogo, GithubLogo } from '@phosphor-icons/react';
 
 const Footer = () => {
